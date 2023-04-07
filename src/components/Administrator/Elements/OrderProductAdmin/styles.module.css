@@ -1,0 +1,26 @@
+.orderProductAdmin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    gap: 0.5em;
+}
+.orderProductAdmin__img{
+    margin: 0;
+}
+.orderProductAdmin__title{
+    color: #FFCA86;
+}
+.orderProductAdmin__button{
+    padding: 0.5em;
+    font-size: 15px;
+    font-weight: bold;
+    background: #2F4F4F;
+    border-radius: 5px;
+    border: 1px solid #2F4F4F;
+    color: #F5F5DC;
+}
+.orderProductAdmin__button:hover{
+    background: #F5F5DC;
+    color: #2F4F4F;
+}

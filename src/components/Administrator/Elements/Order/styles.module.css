@@ -1,0 +1,32 @@
+.elementOrderAdmin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    background: #4E5754;
+    margin-bottom: 0.2em;
+}
+.elementOrderAdmin__title{
+    color: #FFCA86;
+    width: 20%;
+}
+.elementOrderAdmin__info{
+    font-size: 16px;
+    color: #FFCA86;
+    width: 20%;
+}
+.elementOrderAdmin__button{
+    padding: 0.5em;
+    font-size: 15px;
+    font-weight: bold;
+    background: #2F4F4F;
+    border: 1px solid #2F4F4F;
+    border-radius: 7px;
+    margin-left: 0.2em;
+    color: #F5F5DC;
+    width: 20%;
+}
+.elementOrderAdmin__button:hover{
+    background: #F5F5DC;
+    color: #2F4F4F;
+}

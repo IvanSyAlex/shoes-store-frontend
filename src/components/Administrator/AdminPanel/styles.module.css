@@ -1,0 +1,46 @@
+.adminPanel {
+    text-align: center;
+    width: 100%;
+    height: 48.5em;
+    background: #222831;
+    border: 3px solid #5e5e5e;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 2px;
+    max-width: 60%;
+    margin: auto;
+}
+.adminPanel__brandBlock{
+    overflow: hidden;
+    height: 45em;
+}
+
+.adminPanel__productBlock{
+    overflow: hidden;
+    height: 45em;
+}
+
+.adminPanel__button {
+    padding: 0.7em;
+    font-size: 15px;
+    font-weight: bold;
+    background: #2F4F4F;
+    border: 1px solid #2F4F4F;
+    margin-left: 0.2em;
+    color: #F5F5DC;
+}
+
+.adminPanel__button:hover {
+    background: #F5F5DC;
+    color: #2F4F4F;
+}
+
+.adminPanel__button_first {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.adminPanel__button_last {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}

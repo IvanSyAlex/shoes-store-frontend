@@ -1,0 +1,59 @@
+.orderInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background: #5e5e5e;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.orderInfo__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.orderInfo__input{
+    padding: 0.5em;
+    margin: 0.2em 0;
+    border-radius: 5px;
+    border: 3px solid #9BA7B0;
+    font-size: 16px;
+    color: #464451;
+    width:30em;
+    background: #C5D0E6;
+}
+.orderInfo__list{
+    padding: 0.5em ;
+    max-width: 95%;
+}
+.orderInfo__controller{
+    display: flex;
+    gap: 1em;
+}
+.orderInfo__selectList{
+    width:100%;
+    max-height: 20em;
+    overflow-y: scroll;
+    border: 4px double #2F4F4F;
+    display: flex;
+    flex-direction: column;
+    gap:1em
+}
+.orderInfo__button{
+    padding: 0.5em;
+    font-size: 15px;
+    font-weight: bold;
+    background: #2F4F4F;
+    border-radius: 5px;
+    border: 1px solid #2F4F4F;
+    color: #F5F5DC;
+    margin: 0.5em 0;
+}
+.orderInfo__button:hover{
+    background: #F5F5DC;
+    color: #2F4F4F;
+}

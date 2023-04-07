@@ -1,0 +1,99 @@
+.basket {
+    text-align: center;
+    max-width: 60%;
+    height: 48.5em;
+    background: #222831;
+    border: 3px solid #5e5e5e;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 2px;
+    margin: auto;
+}
+
+.basket__title {
+    color: #FFCA86;
+    font-size: 28px;
+    margin: 0;
+    padding: 1em;
+}
+
+.basket__shoppingList {
+    border-top: 3px solid #2F4F4F;
+    border-bottom: 3px solid #2F4F4F;
+    max-height: 70%;
+    min-height: 70%;
+    overflow: auto;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.basket__shoppingList::-webkit-scrollbar {
+    display: none; /*chrome*/
+}
+
+.basket__purchase {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+    border: 1px solid #2F4F4F;
+    color: #C5D0E6;
+    background: #4E5754;
+}
+.basket__infoPurchase{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 70%;
+}
+.basket__nameProduct {
+    min-width: 50%;
+    max-width: 50%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.basket__img {
+    margin: 0;
+    width: 6em;
+    height: 4em;
+    border: 2px dotted #2F4F4F;
+}
+
+.basket__count {
+    font-size: 24px;
+    font-weight: bold;
+}
+.basket__btnPanel{
+    margin: 0 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.basket__controller{
+    margin: 2em;
+}
+.basket__btn{
+    margin-right:0.5em ;
+    padding: 0.5em 1em;
+    font-size: 15px;
+    font-weight: bold;
+    background: #2F4F4F;
+    border: 1px solid #2F4F4F;
+    color: #F5F5DC;
+    border-radius: 3px;
+}
+.basket__btn:hover{
+    cursor: pointer;
+    color: #2F4F4F;
+    background: #F5F5DC;
+}
+.basket__btn_controller{
+    text-decoration: none;
+    padding: 0.7em 2em;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.basket__btn_back:hover{
+    background: coral;
+    color: #2F4F4F;
+}

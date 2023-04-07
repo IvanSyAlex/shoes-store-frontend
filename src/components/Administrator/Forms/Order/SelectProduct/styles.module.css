@@ -1,0 +1,29 @@
+.selectProduct{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.selectProduct__img{
+    margin: 0;
+}
+.selectProduct__title{
+    color: #FFCA86;
+}
+
+.selectProduct__button{
+    padding: 0.5em;
+    font-size: 15px;
+    font-weight: bold;
+    background: #2F4F4F;
+    border: 1px solid #2F4F4F;
+    margin-left: 0.2em;
+    color: #F5F5DC;
+    border-radius: 5px;
+}
+
+.selectProduct__button:hover{
+    background: #F5F5DC;
+    color: #2F4F4F;
+}

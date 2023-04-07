@@ -1,0 +1,11 @@
+.main{
+    text-align: center;
+    max-width: 60%;
+    height: 48.5em;
+    background: #222831;
+    border: 3px solid #5e5e5e;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 2px;
+    margin: auto;
+}

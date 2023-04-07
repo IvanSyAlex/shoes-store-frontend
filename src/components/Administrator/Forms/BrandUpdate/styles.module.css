@@ -1,0 +1,51 @@
+.formBrandUpdate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.formBrandUpdate__brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1em;
+    color: #FFCA86;
+    min-width: 10em ;
+}
+.formBrandUpdate__input{
+    min-height: 2em;
+    margin: 1em 0;
+    border-radius: 5px;
+    border: 2px solid #9BA7B0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #464451;
+    background: #C5D0E6;
+}
+.formBrandUpdate__img{
+    margin: 0 1em;
+    height: 3em;
+    width: 3.5em;
+    border: 1px dotted #2F4F4F;
+}
+.formBrandUpdate__button{
+    padding: 0.5em;
+    font-size: 15px;
+    font-weight: bold;
+    background: #2F4F4F;
+    border: 1px solid #2F4F4F;
+    margin-left: 0.2em;
+    color: #F5F5DC;
+}
+.formBrandUpdate__button:hover{
+    background: #F5F5DC;
+    color: #2F4F4F;
+}
+.formBrandUpdate__button_first{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.formBrandUpdate__button_second{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}

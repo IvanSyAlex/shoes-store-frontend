@@ -1,0 +1,51 @@
+.formBrandAdd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBrandAdd__inputName {
+    width: 60%;
+    min-height: 2em;
+    margin: 1em 0;
+    border-radius: 5px;
+    border: 3px solid #9BA7B0;
+    font-size: 18px;
+    color: #464451;
+    background: #C5D0E6;
+}
+
+.formBrandAdd__inputName:focus {
+    background: #F5F5DC;
+    outline: none;
+    box-shadow: 0px 0px 5px 1px #89AC76;
+}
+
+.formBrandAdd__img {
+    height: 5em;
+    width: auto;
+    border: 2px solid black;
+    margin-bottom: 1em;
+}
+
+.formBrandAdd__button {
+    padding: 0.7em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: #FFCA86;
+    border: none;
+    color: #79553D;
+}
+
+.formBrandAdd__button:hover {
+    background: #BC987E;
+    box-shadow: 0px 0px 5px 1px #FFDF84;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}

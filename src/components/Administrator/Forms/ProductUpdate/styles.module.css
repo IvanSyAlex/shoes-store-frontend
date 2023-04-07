@@ -1,0 +1,105 @@
+.formProductUpdate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #4E5754;
+    margin: 1em 0;
+}
+
+.formProductUpdate__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.formProductUpdate__inputName {
+    min-height: 2em;
+    margin: 0.2em 0;
+    border-radius: 5px;
+    border: 3px solid #9BA7B0;
+    font-size: 14px;
+    color: #464451;
+    background: #C5D0E6;
+}
+
+.formProductUpdate__inputName:focus {
+    background: #F5F5DC;
+    outline: none;
+    box-shadow: 0px 0px 5px 1px #89AC76;
+}
+
+.formProductUpdate__select{
+    min-height: 2em;
+    margin: 0.2em 0;
+    border-radius: 5px;
+    border: 3px solid #9BA7B0;
+    font-size: 14px;
+    color: #464451;
+    background: #C5D0E6;
+}
+
+.formProductUpdate__description{
+    border-radius: 5px;
+    border: 3px solid #9BA7B0;
+    font-size: 14px;
+    color: #464451;
+    background: #C5D0E6;;
+    min-height: 4em;
+}
+.formProductUpdate__price{
+    border-radius: 5px;
+    border: 3px solid #9BA7B0;
+    font-size: 14px;
+    color: #464451;
+    background: #C5D0E6;
+    min-height: 2em;
+}
+.formProductUpdate__img {
+    height: 8em;
+    width: 10em;
+    margin-bottom: 0.5em;
+    border: 2px dotted #2F4F4F;
+}
+.formProductUpdate__price:focus{
+    background: #F5F5DC;
+    outline: none;
+    box-shadow: 0px 0px 5px 1px #89AC76;
+}
+
+.formProductUpdate__button{
+    padding: 0.5em;
+    font-size: 15px;
+    font-weight: bold;
+    background: #2F4F4F;
+    border: 1px solid #2F4F4F;
+
+    color: #F5F5DC;
+}
+.formProductUpdate__button:hover{
+    background: #F5F5DC;
+    color: #2F4F4F;
+}
+.formProductUpdate__button_first{
+    margin: 0.5em 0;
+    border-radius: 7px;
+}
+.formProductUpdate__button_second{
+    border-radius: 7px;
+    margin-bottom: 0.5em;
+}
+
+.formProductUpdate_child {
+    margin: 0.5em 0;
+}
+img {
+    margin: 0 1em;
+    height: 5em;
+    width: 6.5em;
+    border: 1px dotted #2F4F4F;
+    margin: auto;
+}
+
+
